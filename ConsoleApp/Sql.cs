@@ -7,13 +7,18 @@ public class Sql {
 
     // Method to initialize and connect to the database
     public static void Connect() {
-        string databasePath = "MyDatabase.db"; // Specify the database file name.
+        string? projectRoot = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName;
+        if (projectRoot != null) {
+            string databasePath = Path.Combine(projectRoot, "MyDatabase.db");
+            Console.WriteLine("Project Root: " + projectRoot);
+            Console.WriteLine("Database path: " + databasePath);
+            // Connection string
+            string connectionString = $"Data Source={databasePath}";
 
-        // Connection string
-        string connectionString = $"Data Source={databasePath}";
+            // Initialize and open the connection
+            _connection = new SqliteConnection(connectionString);
+        }
 
-        // Initialize and open the connection
-        _connection = new SqliteConnection(connectionString);
         _connection.Open();
         Console.WriteLine("Connected to the database.");
 

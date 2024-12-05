@@ -2696,11 +2696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\RiderProjects\\ConsoleApp1\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub\\BookDatabase\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\andre\\RiderProjects\\ConsoleApp1\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\BookDatabase\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\RiderProjects\\ConsoleApp1\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\GitHub\\BookDatabase\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [

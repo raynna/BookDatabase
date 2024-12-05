@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UI6ln6ZklB4=",
+  "dgSpecHash": "bis216YHoSw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\RiderProjects\\ConsoleApp1\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\BookDatabase\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

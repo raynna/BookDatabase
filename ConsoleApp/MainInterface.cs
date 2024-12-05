@@ -1,4 +1,5 @@
-﻿using ConsoleApp;
+﻿using System.Net.Mime;
+using ConsoleApp;
 using Microsoft.Data.Sqlite;
 
 namespace ConsoleApp;
@@ -72,8 +73,10 @@ public class MainInterface {
                     Lent = selectedBook.Lent
                 });
                 Console.Clear();
-                
                 Console.WriteLine($"Status updated. Book '{selectedBook.Title}' is now {(selectedBook.Lent ? "Lent" : "Available")}.");
+                Console.WriteLine("\nPress any key to continue");
+                Console.ReadKey();
+                Welcome();
             } else if (key == '2') {
                 Welcome();
             }
@@ -82,9 +85,10 @@ public class MainInterface {
         }
     }
 
-    Console.WriteLine("\nPress any key to continue...");
+    Console.WriteLine("Closing program...");
+    Sql.Disconnect();
+    Console.WriteLine("\nPress any key to exit...");
     Console.ReadKey();
-    Welcome();
 }
 
 
