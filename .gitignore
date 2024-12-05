@@ -1,2 +1,5 @@
-ConsoleApp/.bin/
 /.idea/
+/ConsoleApp/bin
+ConsoleApp/bin/Debug/net9.0/ConsoleApp.dll
+ConsoleApp/bin/Debug/net9.0/ConsoleApp.dll
+ConsoleApp/bin/Debug/net9.0/ConsoleApp.exe
