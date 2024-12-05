@@ -3,26 +3,19 @@
 namespace BookBase.raynna.application;
 
 public class Sql {
+    
     private static SqliteConnection? _connection;
 
-    // Method to initialize and connect to the database
     public static void Connect() {
         string? projectRoot = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName;
         if (projectRoot != null) {
             string databasePath = Path.Combine(projectRoot, "MyDatabase.db");
-            Console.WriteLine("Project Root: " + projectRoot);
-            Console.WriteLine("Database path: " + databasePath);
-            // Connection string
             string connectionString = $"Data Source={databasePath}";
-
-            // Initialize and open the connection
             _connection = new SqliteConnection(connectionString);
         }
-
-        _connection.Open();
+        _connection?.Open();
         Console.WriteLine("Connected to the database.");
-
-        // Create the required tables
+        
         string createTableQuery = @"
             CREATE TABLE IF NOT EXISTS Books (
                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -40,7 +33,6 @@ public class Sql {
         }
     }
 
-    // Method to get the current database connection
     public static SqliteConnection GetConnection() {
         if (_connection == null) {
             throw new InvalidOperationException("Database connection is not initialized. Call Connect() first.");
@@ -49,7 +41,6 @@ public class Sql {
         return _connection;
     }
 
-    // Method to store a Book object
     public static void StoreBook(Book book) {
         if (_connection == null) {
             throw new InvalidOperationException("Database connection is not initialized. Call Connect() first.");
@@ -90,8 +81,6 @@ public class Sql {
         }
     }
 
-
-    // Optional: Cleanup and close the connection when done
     public static void Disconnect() {
         if (_connection != null) {
             _connection.Close();
@@ -99,5 +88,3 @@ public class Sql {
         }
     }
 }
-
-// Book class definition

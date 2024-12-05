@@ -5,13 +5,34 @@ namespace BookBase.raynna.application;
 
 public class MainInterface {
 
-    public static void Welcome() {
+
+    public static bool CanCreate(string newUsername) {
+        SqliteConnection connection = Sql.GetConnection();
+        
+        string query = "SELECT Username, Password, privileges, Name FROM users";
+
+        using (var command = connection.CreateCommand()) {
+            command.CommandText = query;
+
+            using (var reader = command.ExecuteReader()) {
+                while (reader.Read()) {
+                    string username = reader.GetString(1);
+                    if (username.ToLower().Equals(newUsername.ToLower())) {
+                        MessageBox.show($"Username {newUsername} already exists");
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+        public static void Welcome() {
         Console.Clear();
         Console.WriteLine("Welcome to the bookstore!");
         Console.WriteLine("\nHere are the available books:");
 
         SqliteConnection connection = Sql.GetConnection();
-
+        
         string query = "SELECT Id, Title, Lent FROM Books";
         var books = new List<(int Id, string Title, bool Lent)>();
 
@@ -24,6 +45,7 @@ public class MainInterface {
                     string title = reader.GetString(1);
                     bool lent = reader.GetInt32(2) == 1;
                     books.Add((id, title, lent));
+                    
                     Console.WriteLine($"[{id}] {title} (Lent: {(lent ? "Yes" : "No")})");
                 }
             }
