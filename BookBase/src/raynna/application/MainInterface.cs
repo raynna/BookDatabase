@@ -17,8 +17,8 @@ public class MainInterface {
             using (var reader = command.ExecuteReader()) {
                 while (reader.Read()) {
                     string username = reader.GetString(1);
-                    if (username.ToLower().Equals(newUsername.ToLower())) {
-                        MessageBox.show($"Username {newUsername} already exists");
+                    var hasSameUsername = username.ToLower().Equals(newUsername.ToLower());
+                    if (hasSameUsername) {
                         return false;
                     }
                 }

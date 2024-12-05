@@ -7,24 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2174706-3c0a-4319-899d-77bdab88c7b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDatabase.db" beforeDir="false" afterPath="$PROJECT_DIR$/MyDatabase.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BookBase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BookBase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/raynna/application/MainInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/raynna/application/MainInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/raynna/application/Sql.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/raynna/application/Sql.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a2174706-3c0a-4319-899d-77bdab88c7b5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +73,7 @@
       <updated>1733432345378</updated>
       <workItem from="1733432346461" duration="3494000" />
       <workItem from="1733437116302" duration="11000" />
-      <workItem from="1733438263196" duration="1246000" />
+      <workItem from="1733438263196" duration="1992000" />
     </task>
     <servers />
   </component>

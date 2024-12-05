@@ -67,7 +67,6 @@ public class Sql {
         using (var command = _connection.CreateCommand()) {
             command.CommandText = updateQuery;
 
-            // Bind parameters
             command.Parameters.AddWithValue("@Title", book.Title);
             command.Parameters.AddWithValue("@Lent", book.Lent ? 1 : 0);
 
