@@ -1,10 +1,8 @@
 ﻿
 using BookBase.raynna.application;
 namespace BookBase {
-    
-    class Program {
-    
-        static void Main(string[] args) {
+    internal abstract class Program {
+        private static void Main(string[] args) {
             try {
                 Sql.Connect();
             } catch (Exception e) {

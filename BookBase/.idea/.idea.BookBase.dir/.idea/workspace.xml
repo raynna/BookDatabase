@@ -7,7 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2174706-3c0a-4319-899d-77bdab88c7b5" name="Changes" comment="" />
+    <list default="true" id="a2174706-3c0a-4319-899d-77bdab88c7b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookBase.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookBase.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDatabase.db" beforeDir="false" afterPath="$PROJECT_DIR$/MyDatabase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BookBase.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/BookBase.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/BookBase.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BookBase.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BookBase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BookBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BookBase.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raynna/application/MainInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/raynna/application/MainInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raynna/application/Sql.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/raynna/application/Sql.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +43,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;raynna&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raynna/BookDatabase.git&quot;,
+    &quot;accountId&quot;: &quot;fb31f37a-c8b4-4886-b644-335bd41e660f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/abe020f9a2af3c72d1e88852b5affbb7698a0ba9e37d62e6fd4c88ff7c6d6/SqliteCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca17e746be53b94b4ce8e2b1838127f95d125a760601f8e441d1a7afbe36/SqliteException.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -32,6 +74,7 @@
     ".NET Project.BookBase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.27559054",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/andre/Documents/GitHub/BookDatabase/BookBase/MyDatabase.db",
     "node.js.detected.package.eslint": "true",
@@ -39,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +116,9 @@
       <updated>1733432345378</updated>
       <workItem from="1733432346461" duration="3494000" />
       <workItem from="1733437116302" duration="11000" />
-      <workItem from="1733438263196" duration="1992000" />
+      <workItem from="1733438263196" duration="3294000" />
+      <workItem from="1733442705902" duration="329000" />
+      <workItem from="1733443051796" duration="7880000" />
     </task>
     <servers />
   </component>
@@ -82,9 +127,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a435c2b3-9e83-4084-b06d-b4347d0b814e" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="a435c2b3-9e83-4084-b06d-b4347d0b814e">
           <value>
             <State />
           </value>
